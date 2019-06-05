@@ -6,10 +6,10 @@
 
 Consolidates the following packages into one parent:
 
-* stsci.imagestats == stsciutils.imagestats
-* stsci.image == stsciutils.image
-* stsci.stimage == stsciutils.stimage
-* stsci.tools  == stsciutils.tools
-* ~stsci.convolve~ (deprecated)
-* ~stsci.ndimage~ (deprecated)
-* ~stsci.imagemanip~ (deprecated)
+* `stsci.imagestats` == `from stsciutils.imagestats import [...]`
+* `stsci.image` == `from stsciutils.image import [...]`
+* `stsci.stimage` == `from stsciutils.stimage import [...]`
+* `stsci.tools`  == `from stsciutils.tools import [...]`
+* ~`stsci.convolve`~ (deprecated)
+* ~`stsci.ndimage`~ (deprecated)
+* ~`stsci.imagemanip`~ (deprecated)
