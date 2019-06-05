@@ -1,0 +1,8 @@
+recursive-include docs *.rst
+recursive-include docs *.css
+recursive-include docs *.png
+recursive-include docs *.jpg *.jpeg
+recursive-include * *.c
+recursive-include * *.h
+recursive-include * *.fits*
+recursive-include * *.cfg
