@@ -129,7 +129,7 @@ def interpret_bit_flags(bit_flags, flip_bits=None):
 
     Examples
     --------
-        >>> from stsci.tools.bitmask import interpret_bit_flags
+        >>> from stsciutils.tools.bitmask import interpret_bit_flags
         >>> "{0:016b}".format(0xFFFF & interpret_bit_flags(28))
         '0000000000011100'
         >>> "{0:016b}".format(0xFFFF & interpret_bit_flags('4,8,16'))
@@ -383,7 +383,7 @@ good_mask_value=True, dtype=numpy.bool\_)
 
     Examples
     --------
-        >>> from stsci.tools import bitmask
+        >>> from stsciutils.tools import bitmask
         >>> import numpy as np
         >>> dqbits = np.asarray([[0,0,1,2,0,8,12,0],[10,4,0,0,0,16,6,0]])
         >>> bitmask.bitfield_to_boolean_mask(dqbits, ignore_flags=0, dtype=int)

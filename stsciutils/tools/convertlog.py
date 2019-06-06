@@ -26,7 +26,7 @@
 
         If used in Pythons script, a user can, e. g.::
 
-            >>> from stsci.tools import convertlog
+            >>> from stsciutils.tools import convertlog
             >>> convertlog.convert(TRLFileName)  # doctest: +SKIP
 
         The most basic usage from the command line::

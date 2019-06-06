@@ -41,7 +41,7 @@ from __future__ import (absolute_import, division, unicode_literals,
                         print_function)
 import warnings
 import numpy as np
-import stsci.image as image
+import stsciutils.image as image
 
 __version__ = '0.6.0'
 
@@ -97,7 +97,7 @@ class numCombine(object):
     with the following commands:
 
     >>> import numpy as np
-    >>> from stsci.image import numcombine as nc
+    >>> from stsciutils.image import numcombine as nc
     >>> a = np.ones([5,5],np.float32)
     >>> b = a - 0.05
     >>> c = a + 0.1
@@ -332,7 +332,7 @@ def num_combine(data, masks=None, combination_type="median",
     with the following commands:
 
     >>> import numpy as np
-    >>> from stsci.image import numcombine as nc
+    >>> from stsciutils.image import numcombine as nc
     >>> a = np.ones([5,5],np.float32)
     >>> b = a - 0.05
     >>> c = a + 0.1

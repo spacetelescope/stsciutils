@@ -9,7 +9,7 @@ import logging
 import os
 import sys
 import threading
-from stsci.tools.for2to3 import tostr
+from stsciutils.tools.for2to3 import tostr
 
 PY3K = sys.version_info[0] > 2
 
@@ -319,7 +319,7 @@ class EchoFilter(object):
     For example, to allow only output from the 'foo' module to be printed to
     the console:
 
-    >>> stdout_logger = logging.getLogger('stsci.tools.logutil.stdout')
+    >>> stdout_logger = logging.getLogger('stsciutils.tools.logutil.stdout')
     >>> stdout_logger.addFilter(EchoFilter(include=['foo']))
 
     Now only print statements in the 'foo' module (or any sub-modules if 'foo'

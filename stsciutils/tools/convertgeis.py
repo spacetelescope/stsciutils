@@ -32,7 +32,7 @@
 
         If used in Pythons script, a user can, e. g.::
 
-            >>> from stsci.tools import convertgeis
+            >>> from stsciutils.tools import convertgeis
             >>> hdulist = convertgeis.convert(GEISFileName)  # doctest: +SKIP
             (do whatever with hdulist)
             >>> hdulist.writeto(FITSFileName)  # doctest: +SKIP

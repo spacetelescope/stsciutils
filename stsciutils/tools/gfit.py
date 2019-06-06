@@ -17,7 +17,7 @@ from . import nmpfit
 
 import warnings
 
-warnings.warn("GFIT is deprecated - stsci.tools v 3.4.12 is the last version to contain it."
+warnings.warn("GFIT is deprecated - stsciutils.tools v 3.4.12 is the last version to contain it."
               "Use astropy.modeling instead.")
 
 __version__ = '2.0'          # Release version number only

@@ -11,7 +11,7 @@ import warnings
 import numpy as np
 import pytest
 
-from stsci.tools import bitmask
+from stsciutils.tools import bitmask
 
 MAX_INT_TYPE = np.maximum_sctype(np.int)
 MAX_UINT_TYPE = np.maximum_sctype(np.uint)

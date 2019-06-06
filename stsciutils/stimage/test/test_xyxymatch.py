@@ -30,7 +30,7 @@
 from __future__ import print_function
 
 import numpy as np
-import stsci.stimage as stimage
+import stsciutils.stimage as stimage
 
 def test_same():
     np.random.seed(0)

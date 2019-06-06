@@ -22,7 +22,7 @@ class ImageStats:
     --------
     This class can can be instantiated using the following syntax::
 
-        >>> import stsci.imagestats as imagestats
+        >>> import stsciutils.imagestats as imagestats
         >>> i = imagestats.ImageStats(image,
                     fields="npix,min,max,mean,stddev",
                     nclip=3,

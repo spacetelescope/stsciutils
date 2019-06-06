@@ -83,7 +83,7 @@ hduList : fits.HDUList
 Examples
 ========
 
->>> from stsci.tools import convertwaiveredfits
+>>> from stsciutils.tools import convertwaiveredfits
 >>> hdulist = convertwaiveredfits.convertwaiveredfits(
 ...     'u9zh010bm_c0f.fits', forceFileOutput=True)  # doctest: +SKIP
 
@@ -92,7 +92,7 @@ to multi-extension FITS format and write the output to the
 file ``u9zh010bm_c0h.fits``;  the returned ``HDUList`` is in
 multi-extension FITS format.
 
->>> from stsci.tools import convertwaiveredfits
+>>> from stsciutils.tools import convertwaiveredfits
 >>> with open('u9zh010bm_c0f.fits', mode='rb') as inFile:
 ...     hdulist = convertwaiveredfits.convertwaiveredfits(inFile, 'out.fits')  # doctest: +SKIP
 
@@ -102,7 +102,7 @@ file ``out.fits``; the returned ``HDUList`` is in multi-extension
 FITS format.
 
 >>> from astropy.io import fits
->>> from stsci.tools import convertwaiveredfits
+>>> from stsciutils.tools import convertwaiveredfits
 >>> with fits.open('u9zh010bm_c0f.fits') as inHdul:
 ...     hdulist = convertwaiveredfits.convertwaiveredfits(inHdul)  # doctest: +SKIP
 

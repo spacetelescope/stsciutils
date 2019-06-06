@@ -1,7 +1,7 @@
 from __future__ import division, print_function # confidence high
 
 import astropy
-from stsci.tools import parseinput, fileutil, convertwaiveredfits, readgeis
+from stsciutils.tools import parseinput, fileutil, convertwaiveredfits, readgeis
 from astropy.io import fits
 import os
 import sys

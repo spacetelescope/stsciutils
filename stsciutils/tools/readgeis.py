@@ -29,7 +29,7 @@
 
         If used in Pythons script, a user can, e. g.::
 
-            >>> from stsci.tools import readgeis
+            >>> from stsciutils.tools import readgeis
             >>> hdulist = readgeis.readgeis(GEISFileName)  # doctest: +SKIP
             (do whatever with hdulist)
             >>> hdulist.writeto(FITSFileName)  # doctest: +SKIP

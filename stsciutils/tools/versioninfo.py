@@ -37,7 +37,7 @@ def printVersionInfo():
                 'matplotlib',
                 'pyraf',
                 'drizzlepac',
-                'stsci.tools',
+                'stsciutils.tools',
                 'calcos']
 
     # Test the list of software tasks

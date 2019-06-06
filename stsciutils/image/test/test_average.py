@@ -2,7 +2,7 @@
 import numpy as np
 import nose
 from nose.tools import *
-from stsci.image import combine
+from stsciutils.image import combine
 
 
 arrays = []

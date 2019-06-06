@@ -26,7 +26,7 @@ from . import irafglob
 from .irafglob import irafglob
 
 from . import fileutil
-from stsci.tools.asnutil import readASNTable
+from stsciutils.tools.asnutil import readASNTable
 
 def parseinput(inputlist,outputname=None, atfile=None):
     """
@@ -63,7 +63,7 @@ def parseinput(inputlist,outputname=None, atfile=None):
 
     See Also
     --------
-    stsci.tools.irafglob
+    stsciutils.tools.irafglob
 
     """
 

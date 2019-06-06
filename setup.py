@@ -4,7 +4,6 @@ import sys
 from setuptools import setup, find_packages, Extension
 
 
-
 # Setup C module include directories
 include_dirs = [numpy.get_include()]
 
@@ -25,8 +24,11 @@ setup(
     maintainer="J. Hunkeler",
     maintainer_email="jhunk@stsci.edu",
     setup_requires=['setuptools_scm'],
+    install_requires=[
+        'numpy',
+        'astropy',
+    ],
     packages=find_packages(),
-    package_data={},
     ext_modules=[
         Extension('stsciutils.image._combine',
                   ['stsciutils/image/src/_combinemodule.c'],

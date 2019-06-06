@@ -24,7 +24,7 @@ if capable.OF_GRAPHICS:
         from tkFileDialog import asksaveasfilename
         from tkMessageBox import askokcancel, askyesno, showwarning
 
-# stsci.tools modules
+# stsciutils.tools modules
 from .irafglobals import userWorkingHome
 from . import basicpar, eparoption, irafutils, taskpars
 

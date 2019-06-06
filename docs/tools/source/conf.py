@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# stsci.tools documentation build configuration file, created by
+# stsciutils.tools documentation build configuration file, created by
 # sphinx-quickstart on Thu Oct  7 13:09:39 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -11,7 +11,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-from stsci.tools import __version__
+from stsciutils.tools import __version__
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -42,7 +42,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'stsci.tools'
+project = u'stsciutils.tools'
 copyright = u'2018, STScI'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -164,7 +164,7 @@ html_domain_indices = ['py-modindex']
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'stsci.toolsdoc'
+htmlhelp_basename = 'stsciutils.toolsdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -178,7 +178,7 @@ htmlhelp_basename = 'stsci.toolsdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 #latex_documents = [
-#  ('index', 'stsci.tools.tex', u'stsci.tools Documentation',
+#  ('index', 'stsciutils.tools.tex', u'stsciutils.tools Documentation',
 #   u'SSB', 'manual'),
 #]
 
